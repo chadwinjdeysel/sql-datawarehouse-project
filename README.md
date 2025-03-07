@@ -1,7 +1,7 @@
 # SQL Datawarehouse and Analytics Project
 Building a modern data warehouse with SQL Server, including ETL process, data modelling and analytics. This project follows along a free course called [SQL Data Warehouse from Scratch](https://www.youtube.com/watch?v=9GVqKuTVANE&list=PL2JvDCNtgOd9VnbPERPM7uu2C8MhFfEDg) by [@DataWithBaraa](https://github.com/DataWithBaraa). 
 
-# 🚀 Project Requirements
+## 🚀 Project Requirements
 Building the Data Warehouse (Data Engineering)
 Objective
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
