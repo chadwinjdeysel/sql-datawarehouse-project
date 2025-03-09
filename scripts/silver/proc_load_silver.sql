@@ -38,16 +38,16 @@ BEGIN
 		, cst_key
 		, TRIM(cst_firstname) AS cst_firstname
 		, TRIM(cst_lastname) AS cst_lastname
-		, CASE UPPER(TRIM(cst_gndr))
-			WHEN 'F' THEN 'Female'
-			WHEN 'M' THEN 'Male'
-			ELSE 'n/a'
-		END AS cst_gndr
 		, CASE UPPER(TRIM(cst_marital_status))
 			WHEN 'S' THEN 'Single'
 			WHEN 'M' THEN 'Married'
 			ELSE 'n/a'
 		END AS cst_marital_status 
+		, CASE UPPER(TRIM(cst_gndr))
+			WHEN 'F' THEN 'Female'
+			WHEN 'M' THEN 'Male'
+			ELSE 'n/a'
+		END AS cst_gndr
 		, cst_create_date
 	FROM (
 		SELECT 
