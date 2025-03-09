@@ -52,7 +52,7 @@ CREATE TABLE bronze.crm_sales_details(
 DROP TABLE IF EXISTS bronze.erp_loc_a101;
 CREATE TABLE bronze.erp_loc_a101(
 	cid   NVARCHAR(50),
-	cnrty NVARCHAR(50)
+	cntry NVARCHAR(50)
 );
 
 DROP TABLE IF EXISTS bronze.erp_cust_az12;
